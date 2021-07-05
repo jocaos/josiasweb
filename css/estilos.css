@@ -25,7 +25,7 @@ body {
 
 .titulo {
     color: wheat;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -36,6 +36,13 @@ body {
     margin-bottom: 60px;
 }
 
+.antetitulo{
+    font-size: 35px;
+}
+
+.titnoticia{
+    font-size: 26px;
+}
 /* Header */
 header.header {
     position: absolute;
@@ -117,8 +124,8 @@ div.banner {
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -144,17 +151,14 @@ header.header .nav ul li a:hover {
 }
 
 div.container {
-    margin-top: 550px !important;
-    max-width: 1440px;
+    margin-top: 450px !important;
     position: relative;
     z-index: 1024;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
 }
 
 div.info-dota {
-    grid-column: 1/2;
     display: flex;
     justify-content: start;
 }
@@ -168,13 +172,13 @@ div.details {
 }
 
 div.details p {
-    color: #fff;
-    font-size: 40px;
+    color: #ffffff;
+    font-size: 55px;
 }
 
 div.details h1 {
     color: #fff;
-    font-size: 140px;
+    font-size: 170px;
 }
 
 div.link-arcane {
@@ -187,6 +191,7 @@ div.link-arcane a {
     color: #fff;
     border: 1px solid #FF512F;
     transition: .1s;
+    font-size: 25px;
 }
 
 div.link-arcane a:hover {
@@ -195,29 +200,13 @@ div.link-arcane a:hover {
     transition-delay: 0.1s;
 }
 
-div.info-arcane {
-    grid-column: 2/3;
-    font-family: 'Montserrat';
-    text-align: center;
-}
-
-div.info-arcane h2 {
-    text-transform: uppercase;
-    color: #EAD4A9;
-    text-shadow: 2px 3px 4px rgb(114, 114, 114);
-    font-size: 40px;
-    margin-bottom: 40px;
-}
-
-div.info-arcane p {
-    color: #fff;
-    font-weight: 300;
-}
-
 /* About us */
 
 main .registro{
     padding: 30px 0 60px 0;
+}
+.parrafo{
+    font-size: 22px;
 }
 .contenedor-registro{
     display: flex;
@@ -293,7 +282,7 @@ main .registro{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(192, 63, 91, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -307,6 +296,10 @@ main .registro{
 
 .hover-galeria p{
     color: #fff;
+    font-family: 'hoffman';
+    font-size: 40px;
+    text-align: center;
+
 }
 
 .imagen-port:hover .hover-galeria{
@@ -462,6 +455,25 @@ footer{
         width: 90%;
     }
 
+     /*error*/
+
+    div.details p {
+        color: #fff;
+        font-size: 40px;
+    }
+    
+    div.details h1 {
+        color: #fff;
+        font-size: 120px;
+    }
+    div.link-arcane a {
+        padding: 5px 15px;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #FF512F;
+        transition: .1s;
+        font-size: 25px;
+    }
     /* Galeria */
 
     .imagen-port{
@@ -523,7 +535,31 @@ footer{
     .textos-header h2{
         font-size: 20px;
     }
+    .antetitulo{
+        font-size: 25px;
+    }
+    .parrafo{
+        font-size: 20px;
+    }
+    /*error*/
 
+    div.details p {
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    div.details h1 {
+        color: #fff;
+        font-size: 70px;
+    }
+    div.link-arcane a {
+        padding: 5px 15px;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #FF512F;
+        transition: .1s;
+        font-size: 15px;
+    }
     
     /* ABOUT US */
 
