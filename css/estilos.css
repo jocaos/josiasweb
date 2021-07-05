@@ -29,21 +29,25 @@ body {
     text-align: center;
     margin-bottom: 10px;
 }
-.subtitulo{
+
+.subtitulo {
     color: wheat;
     font-size: 20px;
     text-align: center;
     margin-bottom: 60px;
 }
 
-.antetitulo{
+.antetitulo {
     font-size: 35px;
 }
 
-.titnoticia{
+.titnoticia {
     font-size: 26px;
 }
+
+
 /* Header */
+
 header.header {
     position: absolute;
     width: 100%;
@@ -103,12 +107,12 @@ div.btn-ticket a {
     overflow: hidden;
     transition: .3s;
     background: #FF512F;
-    box-shadow: 0 0 10px #FF512F,0 0 0px #FF512F, 0 0 0px #FF512F;
+    box-shadow: 0 0 10px #FF512F, 0 0 0px #FF512F, 0 0 0px #FF512F;
 }
 
 div.btn-ticket a:hover {
     background: #FF512F;
-    box-shadow: 0 0 10px #FF512F,0 0 40px #FF512F, 0 0 80px #FF512F;
+    box-shadow: 0 0 10px #FF512F, 0 0 40px #FF512F, 0 0 80px #FF512F;
     transition-delay: .2s;
 }
 
@@ -120,7 +124,7 @@ div.main {
 }
 
 div.banner {
-    background-image: url(img/arcaneqop.png);
+    background-image: url(/img/arcaneqop.jpg);
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -196,37 +200,40 @@ div.link-arcane a {
 
 div.link-arcane a:hover {
     background: #FF512F;
-    box-shadow: 0 0 10px #FF512F,0 0 40px #FF512F, 0 0 80px #FF512F;
+    box-shadow: 0 0 10px #FF512F, 0 0 40px #FF512F, 0 0 80px #FF512F;
     transition-delay: 0.1s;
 }
 
+
 /* About us */
 
-main .registro{
+main .registro {
     padding: 30px 0 60px 0;
 }
-.parrafo{
+
+.parrafo {
     font-size: 22px;
 }
-.contenedor-registro{
+
+.contenedor-registro {
     display: flex;
     justify-content: space-evenly;
 }
 
-.imagen-about-us{
+.imagen-about-us {
     width: 48%;
 }
 
-.registro .contenido-textos{
+.registro .contenido-textos {
     width: 48%;
 }
 
-.contenido-textos h3{
+.contenido-textos h3 {
     margin-bottom: 15px;
 }
 
-.contenido-textos h3 span{
-    background:  rgba(192, 63, 91, 0.7);
+.contenido-textos h3 span {
+    background: rgba(192, 63, 91, 0.7);
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -238,29 +245,30 @@ main .registro{
     margin-right: 5px;
 }
 
-.contenido-textos p{
+.contenido-textos p {
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
 }
-.divisor{
+
+.divisor {
     width: 100%;
 }
 
+
 /* Galeria */
 
-
-.portafolio{
+.portafolio {
     background: #000000;
 }
 
-.galeria-port{
+.galeria-port {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-port{
+.imagen-port {
     width: 30%;
     margin-bottom: 10px;
     overflow: hidden;
@@ -269,14 +277,14 @@ main .registro{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-port > img{
+.imagen-port>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.hover-galeria{
+.hover-galeria {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -290,30 +298,30 @@ main .registro{
     flex-direction: column;
 }
 
-.hover-galeria img{
+.hover-galeria img {
     width: 50px;
 }
 
-.hover-galeria p{
+.hover-galeria p {
     color: #fff;
     font-family: 'hoffman';
     font-size: 40px;
     text-align: center;
-
 }
 
-.imagen-port:hover .hover-galeria{
+.imagen-port:hover .hover-galeria {
     transform: scale(1);
 }
 
+
 /* Clients */
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-evenly;
 }
 
-.cards .card{
+.cards .card {
     background: rgba(192, 63, 91, 0.7);
     display: flex;
     width: 46%;
@@ -324,7 +332,7 @@ main .registro{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
-.cards .card img{
+.cards .card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -333,59 +341,60 @@ main .registro{
     display: block;
 }
 
-.cards .card > .contenido-texto-card{
+.cards .card>.contenido-texto-card {
     width: 60%;
     color: #fff;
 }
 
-.cards .card > .contenido-texto-card p{
+.cards .card>.contenido-texto-card p {
     font-weight: 300;
     padding-top: 5px;
 }
 
+
 /*  Our team */
 
-.about-services{
-    background:black;
+.about-services {
+    background: black;
     padding-bottom: 30px;
     color: wheat;
 }
 
-
-.servicio-cont{
-    display:flex;
+.servicio-cont {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.servicio-ind{
+.servicio-ind {
     width: 28%;
     text-align: center;
 }
 
-.servicio-ind img{
+.servicio-ind img {
     width: 90%;
 }
 
-.servicio-ind h3{
+.servicio-ind h3 {
     margin: 10px 0;
 }
 
-.servicio-ind p{
+.servicio-ind p {
     font-weight: 300;
     text-align: justify;
 }
 
+
 /* footer */
 
-footer{
+footer {
     background: #030101;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
 
-.contenedor-footer{
+.contenedor-footer {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
@@ -394,30 +403,30 @@ footer{
     border-bottom: 1px solid #ccc;
 }
 
-.content-foo{
+.content-foo {
     text-align: center;
 }
 
-.content-foo h4{
+.content-foo h4 {
     color: wheat;
     border-bottom: 3px solid #420e0e;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.content-foo p{
+.content-foo p {
     color: wheat;
 }
 
-.titulo-final{
+.titulo-final {
     text-align: center;
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #f6f6f6;
 }
 
-@media screen and (max-width:900px){
-    header{
+@media screen and (max-width:900px) {
+    header {
         background-position: center;
     }
     header.header .nav ul li a {
@@ -425,12 +434,12 @@ footer{
         margin-left: 10px;
     }
     div.btn-ticket a {
-      font-size: 10px;
+        font-size: 10px;
     }
     div.container {
         margin-top: 150px !important;
     }
-    .contenedor-registro{
+    .contenedor-registro {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -438,30 +447,26 @@ footer{
     div.details {
         text-align: center;
     }
-    .info-arcane{
+    .info-arcane {
         visibility: hidden;
     }
-    .btn-ticket{
+    .btn-ticket {
         visibility: hidden;
     }
-    .banner{
+    .banner {
         width: 110%;
     }
-    .registro .contenido-textos{
+    .registro .contenido-textos {
         width: 90%;
     }
-
-    .imagen-about-us{
+    .imagen-about-us {
         width: 90%;
     }
-
-     /*error*/
-
+    /*error*/
     div.details p {
         color: #fff;
         font-size: 40px;
     }
-    
     div.details h1 {
         color: #fff;
         font-size: 120px;
@@ -475,79 +480,65 @@ footer{
         font-size: 25px;
     }
     /* Galeria */
-
-    .imagen-port{
+    .imagen-port {
         width: 44%;
     }
-
     /* Clientes */
-
-    .cards{
+    .cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .cards .card{
+    .cards .card {
         width: 90%;
     }
-
-    .cards .card:first-child{
+    .cards .card:first-child {
         margin-bottom: 30px;
     }
-
     /* servicios */
-
-    .servicio-cont{
+    .servicio-cont {
         justify-content: center;
         flex-direction: column;
     }
-
-    .servicio-ind{
+    .servicio-ind {
         width: 100%;
         text-align: center;
     }
-
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
         margin-bottom: 60px;
     }
-
-    .servicio-ind img{
+    .servicio-ind img {
         width: 90%;
     }
 }
 
-@media screen and (max-width:500px){
-    nav{
+@media screen and (max-width:500px) {
+    nav {
         text-align: center;
         padding: 30px 0 0 0;
     }
-
-    nav > a{
+    nav>a {
         font-size: 20px;
         margin-right: 5px;
     }
-
-    .textos-header h1{
+    .textos-header h1 {
         font-size: 35px;
     }
-
-    .textos-header h2{
+    .textos-header h2 {
         font-size: 20px;
     }
-    .antetitulo{
+    .antetitulo {
         font-size: 25px;
     }
-    .parrafo{
+    .parrafo {
         font-size: 20px;
     }
     /*error*/
-
     div.details p {
         color: #fff;
         font-size: 30px;
     }
-    
     div.details h1 {
         color: #fff;
         font-size: 70px;
@@ -560,61 +551,47 @@ footer{
         transition: .1s;
         font-size: 15px;
     }
-    
     /* ABOUT US */
-
-    .imagen-about-us{
+    .imagen-about-us {
         margin-bottom: 60px;
         width: 99%;
     }
-
-    .registro .contenido-textos{
+    .registro .contenido-textos {
         width: 95%;
     }
-
     /* Galeria */
-
-    .imagen-port{
+    .imagen-port {
         width: 95%;
     }
-
     /* Clients */
-
-    .cards .card{
+    .cards .card {
         height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    .cards .card img{
+    .cards .card img {
         width: 90px;
         height: 90px;
     }
-
     /* Footer */
-
-    .contenedor-footer{
+    .contenedor-footer {
         flex-direction: column;
         border: none;
     }
-
-    .content-foo{
+    .content-foo {
         margin-bottom: 20px;
         text-align: center;
     }
-
-    .content-foo h4{
+    .content-foo h4 {
         border: none;
     }
-
-    .content-foo p{
+    .content-foo p {
         color: #ccc;
         border-bottom: 1px solid #f2f2f2;
         padding-bottom: 20px;
     }
-
-    .titulo-final{
+    .titulo-final {
         font-size: 20px;
     }
 }
