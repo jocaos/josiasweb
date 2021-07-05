@@ -124,7 +124,7 @@ div.main {
 }
 
 div.banner {
-    background-image: url(/img/arcaneqop.jpg);
+    background-image: url(img/arcaneqop.jpg);
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
